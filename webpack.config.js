@@ -12,7 +12,12 @@ module.exports = {
       test: /\.js$/,
       include: path.resolve(__dirname, 'src'),
       use: ['babel-loader']
-    }]
+    },
+    {
+      test: /\.css$/i,
+      use: ['style-loader', 'css-loader'],
+    }
+  ]
   },
   devServer: {
     contentBase:  path.resolve(__dirname, 'dist'),
