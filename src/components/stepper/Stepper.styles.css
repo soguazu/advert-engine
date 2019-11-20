@@ -1,0 +1,15 @@
+.MuiMobileStepper-progress {
+  width: 100% !important;
+}
+
+.MuiLinearProgress-barColorPrimary {
+  background-color: #30BC7A !important;
+}
+
+.MuiLinearProgress-colorPrimary {
+  background-color: #f3f3f3 !important;
+}
+
+.MuiMobileStepper-root {
+  padding: 8px 0px !important;
+}

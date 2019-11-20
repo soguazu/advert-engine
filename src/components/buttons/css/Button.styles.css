@@ -1,0 +1,38 @@
+/* step button styling  begins*/
+.step-button-active {
+  border: 1px solid;
+  font-size: 0.8em;
+  padding: 0px 20px;
+  color: white;
+  background: #30bc7a;
+  font-weight: 700;
+  border-radius: 20px;
+  margin-top: auto;
+}
+
+.step-button-active p,
+.step-button-inactive p {
+  margin: 0;
+}
+
+.button-holder {
+  margin: auto 0px;
+}
+
+.step-button-inactive {
+  border: 1px;
+  font-size: 0.8em;
+  padding: 0px 20px;
+  color: #a7dfc4;
+  background: #e5f3ec;
+  font-weight: 700;
+  border-radius: 20px;
+  margin-top: auto;
+}
+
+.step-button-inactive:hover {
+  color: #30bc7a;
+  cursor: default
+}
+
+/* step button styling  ends*/
